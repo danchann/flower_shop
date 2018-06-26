@@ -1,0 +1,109 @@
+body { 
+    display: table;
+    width: 100%;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    
+}
+.header div {
+    display: block;
+    margin-left: 0;
+    min-height: 2vh;
+}
+.bg {
+    /* background image part */
+    position: relative;
+    /*background-position: bottom;
+    background-size: cover;*/
+    z-index: 1;
+    top: 0px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.9);
+    min-height: 60vmin;
+    border: 0;
+    padding: 0;
+    
+    /* layout */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#photo {
+    z-index: -1;
+    visibility: visible;
+    position: absolute;
+    background-image: url("./flowershop/flowershop.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+    opacity: 0.3;
+    min-width: 100%;
+    min-height: 100%;
+    display: flex;
+}
+.shopName {
+    display: inline-block;
+    text-align: center;
+    font-size: 6vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    top: 45%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    z-index: 2;
+}
+.btn-lg.round {
+    border: 1px solid #7ED321;
+    border-radius: 4rem;
+    font-size: 3vh;
+    padding: 5px;
+    background-color: #7ED321;
+}
+footer {
+    position: relative;
+    /*bottom: 0;
+    background-position: bottom;
+    background-size: cover;
+    margin: 0;
+    height: 31.47vh;*/
+    width: 100%;
+    background: #CEE7B4;
+    display: flex;
+
+}
+footer .container {
+    padding: 15px;
+    min-height: 32vh;
+}
+.box img {
+    display: inline;
+}
+.bottom img {
+    width: 7vh;
+    margin: 30px;
+}
+.bottom h6 {
+    display: inline-block;
+}
+.btmBox {
+    align-items: center;
+    display: flex;
+}
+.zoom {
+    transition: transform .2s;
+}
+
+.zoom:hover {
+    -ms-transform: scale(1.4); /* IE 9 */
+    -webkit-transform: scale(1.4); /* Safari 3-8 */
+    transform: scale(1.4); 
+}
