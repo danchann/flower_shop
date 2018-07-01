@@ -1,6 +1,6 @@
 # flower_shop
 
-A flower shop website written in HTML, CSS, Bootstrap, Javascript, Node, Express
+A mobile responsive flower shop website written in HTML, CSS, Bootstrap, Javascript, Node, Express
 
 ## Screenshot of the homepage
 
